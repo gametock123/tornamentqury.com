@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="concss.css">
+</head>
+<body>
+	<div cotainer>
+<nav class="navbar">
+<div class="navbar-container container">
+<input type="checkbox" name="" id="">
+<div class="hamburger-lines">
+<span class="line line1"></span>
+<span class="line line2"></span>
+<span class="line line3"></span>
+</div>
+<ul class="menu-items">
+<li><a href="htmlfirst.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="tornacode.html">tornament cod</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<!-- <img class="logo"></img> -->
+<img class="logo" src="logo345.jpg" width="250px" height="60px">
+</div>
+</nav>   
+</section>
+
+
+        <div class="cont">
+            <h1>Contact</h1>
+            <hr>
+            <label for="name"><input type="text" id="name" placeholder="What's your name?"></label>
+            <label for="email"><input type="email" id="email" placeholder="Please enter your email"></label>
+            <label for="phone"><input type="number" id="phone" placeholder="Phone number"></label>
+            <label for="mensaje"><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Leave us a message."></textarea></label>
+            <input type="submit" value="Send">
+        </div>
+
+        <!-- footer -->
+<footer class="footer">
+<div class="container row">
+<div class="footer-col">
+<h4>company</h4>
+<ul>
+<li><a href="#">about us</a></li>
+<li><a href="#">our services</a></li>
+<li><a href="#">privacy policy</a></li>
+<li><a href="#">visit website</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>get help</h4>
+<ul>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">shipping</a></li>
+<li><a href="#">returns</a></li>
+<li><a href="#">order status</a></li>
+<li><a href="#">payment options</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>online shop</h4>
+ <ul>
+<li><a href="#">download</a></li>
+<li><a href="#">changelog</a></li>
+<li><a href="#">github</a></li>
+<li><a href="#">all version</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>follow us</h4>
+<div class="social-links">
+<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+</footer>
+<!-- cursor -->
+<div id="cursor-custom"></div>
+<script type="text/javascript">
+const cursor = document.getElementById("cursor-custom"),
+radius = cursor.offsetHeight / 2;
+document.addEventListener("mousemove", (e) => {
+let top = e.clientY - radius,
+left = e.clientX - radius;
+cursor.style = `top: ${top}px; left: ${left}px`;
+});
+</script>
+   
+
+</body>
+</html>
